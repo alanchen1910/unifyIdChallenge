@@ -1,0 +1,11 @@
+Follow Up Questions:
+
+Circumstances that would lead to a false positive are:
+- if a user goes to a location with an ip address that was previously marked as fraud and tries to log in
+- a normal user lives near someone who has made a fraudulent login attempt
+
+Circustances that would leave to false negatives:
+- a fraudulent user tries to make a fraudulent login attempt on vacation/business trip that is far away from any flagged ip addresses
+- a fraudulent user uses a contact far away from flagged ip addresses to make fraudulent login attempts
+
+A challenge with computing distances based on latitude/longitude is accounting for the curvature of the earth

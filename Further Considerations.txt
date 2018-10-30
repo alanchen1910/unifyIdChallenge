@@ -1,0 +1,5 @@
+Further Considerations
+
+- An issue that I ran into while working on the challenge was the IPinfo api went down for a few minutes
+- To make the challenge better in the future, create a problem where the applicant can optimize the solution
+  algorithm's runtime. 
