@@ -17,7 +17,7 @@ class FraudDetection:
       coordinates = self.handler.getDetails(ipAddress).loc
 
       #If this ip address has been marked as a fraud before, it should always be fraud
-      if ipAddress not in self.ips || labelAndIp[1] == 'FRAUD':
+      if ipAddress not in self.ips or labelAndIp[1] == 'FRAUD':
         self.ips[ipAddress] = (coordinates, labelAndIp[0])
 
   def score(self, ip):
